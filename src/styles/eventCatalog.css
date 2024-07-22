@@ -1,0 +1,228 @@
+/* General Reset */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+} */
+
+/* Search Container */
+.searchcont {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 70px; /* Adjusted to avoid overlap with navbar */
+    position: relative;
+    background-color: #f0f0f0; /* Same as page background */
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: white; /* White background */
+    padding: 15px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-form input::placeholder {
+    color: #666; /* Medium gray placeholder color */
+}
+
+.search-form input,
+.search-form select {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    color: black; /* Black text color */
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 20px;
+    outline: none;
+    margin: 5px; /* Added to space out the elements */
+}
+
+.search-form input[type="text"] {
+    flex: 1; /* Allow text input to take available space */
+}
+
+.search-form input[type="date"] {
+    color: black;
+    background-color: #f0f0f0;
+}
+
+.search-form input:focus,
+.search-form select:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+/* Responsive Search Container */
+@media (max-width: 768px) {
+    .search-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-form input,
+    .search-form select {
+        margin: 5px 0;
+        width: 100%;
+    }
+}
+
+/* Event Cards */
+.event-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 100px; /* Adjusted to avoid overlap with footer */
+    margin-bottom: 60px; /* Ensure spacing from footer */
+    margin-left: 20px; /* Added margin on left */
+    margin-right: 20px; /* Added margin on right */
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column; /* Ensures vertical layout */
+    animation: fadeInUp 0.6s ease-out;
+    justify-content: space-between; /* Ensure space between elements */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.card .title{
+    color: black;
+}
+
+.card:hover .title {
+    color: #16A34A;
+}
+
+.card img {
+    width: 100%;
+    height: 180px; /* Decreased height */
+    max-height: 180px; /* Decreased max height */
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 15px; /* Decreased padding */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1; /* Allow to grow */
+    justify-content: space-between; /* Space between elements */
+}
+
+.card-info .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-info .date {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.card-info .league {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.card-info .location {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.ticketButton {
+    background-color: #16A34A; /* New color */
+    color: white; /* White text */
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.ticketButton:hover {
+    background-color: white; /* White background on hover */
+    color: #16A34A; /* Text color change on hover */
+    border: 2px solid #16A34A; /* Border color change on hover */
+}
+
+.containerButton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 150px; /* Ensure spacing from footer */
+}
+
+.page-button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Light gray */
+    color: black; /* Black text */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.page-button.active {
+    background-color: #16A34A; /* New color */
+    color: white; /* White text */
+}
+
+.page-button:hover {
+    background-color: #e0e0e0; /* Slightly darker gray on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .event-cards {
+        grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    }
+}
+
+@media (max-width: 900px) {
+    .event-cards {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    }
+}
+
+@media (max-width: 600px) {
+    .event-cards {
+        grid-template-columns: 1fr; /* 1 card per row */
+    }
+}
