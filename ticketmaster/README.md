@@ -58,5 +58,3 @@ This project not only serves as a comprehensive platform for football match tick
 ## Figma
 
 [Figm Link](https://www.figma.com/design/mpOWZmNcLSSjn6fAWY1Aha/Untitled?node-id=0-1&t=8exp2tSnYSKU9YNo-0)
-
-
