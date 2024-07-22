@@ -49,3 +49,9 @@ Our project focuses on creating an intuitive and user-friendly platform for purc
 
 This project not only serves as a comprehensive platform for football match ticketing but also showcases the effective use of modern web development technologies. By combining HTML, CSS, JavaScript, React.js, Tailwind, Firebase, and GitHub, we have built a robust and scalable application that provides an exceptional user experience for football fans.
 
+## Important Links
+
+[Trello Link](https://trello.com/b/iXXJPQrR/project-4-group-5)
+[Figm Link](https://www.figma.com/design/mpOWZmNcLSSjn6fAWY1Aha/Untitled?node-id=0-1&t=8exp2tSnYSKU9YNo-0)
+
+
