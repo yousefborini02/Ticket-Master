@@ -7,9 +7,9 @@ Our project focuses on creating an intuitive and user-friendly platform for purc
 
 ## Key Features
 
-1. **Event Catalog**: A dynamic and responsive catalog displaying various football matches. Users can view details, select tickets, and proceed to checkout with ease.
+1. **Match Catalog**: A dynamic and responsive catalog displaying various football matches. Users can view details, select tickets, and proceed to checkout with ease.
    
-2. **Event Details**: Detailed pages for each football match, showcasing important information such as the match date, location, available ticket types, and prices.
+2. **Match Details**: Detailed pages for each football match, showcasing important information such as the match date, location, available ticket types, and prices.
 
 3. **Ticket Purchase**: A streamlined process for selecting and purchasing tickets, ensuring a smooth and secure transaction experience.
 
@@ -35,15 +35,15 @@ Our project focuses on creating an intuitive and user-friendly platform for purc
 
 1. **Initial Setup**: Setting up the project repository on GitHub, initializing the React application, and configuring Tailwind CSS for styling.
 
-2. **Event Catalog Implementation**: Developing the main catalog page where all events are listed. Integrating the slider for a better user experience and ensuring responsiveness.
+2. **Match Catalog Implementation**: Developing the main catalog page where all events are listed. Integrating the slider for a better user experience and ensuring responsiveness.
 
-3. **Event Details Page**: Creating individual event pages that display detailed information about each match. Implementing navigation from the catalog to the details page.
+3. **Match Details Page**: Creating individual event pages that display detailed information about each match. Implementing navigation from the catalog to the details page.
 
 4. **Ticket Purchase Flow**: Designing the ticket selection and purchase flow, including state management to handle user selections and navigation to the checkout page.
 
 5. **Firebase Integration**: Setting up Firebase for data storage, fetching event data, and managing ticket availability.
 
-6. **Testing and Deployment**: Conducting thorough testing to ensure all functionalities work as expected and deploying the final product to a live environment.
+
 
 ## Conclusion
 
@@ -51,7 +51,12 @@ This project not only serves as a comprehensive platform for football match tick
 
 ## Important Links
 
+## Trello
+
 [Trello Link](https://trello.com/b/iXXJPQrR/project-4-group-5)
+
+## Figma
+
 [Figm Link](https://www.figma.com/design/mpOWZmNcLSSjn6fAWY1Aha/Untitled?node-id=0-1&t=8exp2tSnYSKU9YNo-0)
 
 
